@@ -1,0 +1,2 @@
+# stausi-tablet
+stausi-tablet
