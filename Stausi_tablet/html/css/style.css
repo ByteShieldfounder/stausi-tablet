@@ -1,0 +1,43 @@
+html, body{
+    background-color:transparent !important;
+    width: 80%;
+    margin: auto;
+    min-width: 1920px;
+    height:100%;
+    overflow:hidden
+}
+
+.tablet {
+    opacity: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.tablet-if {
+    overflow:hidden;
+    z-index: 1;
+    border: 0;
+    display:block;
+    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+
+.fill-height {
+    min-height: 100%;
+    height:auto !important; /* cross-browser */
+    height: 100%; /* cross-browser */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons button {
+   width: 100%;
+}
+
+#refreshhungry {
+    width: 4rem;
+}
